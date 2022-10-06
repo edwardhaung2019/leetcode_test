@@ -55,6 +55,7 @@ int* twoSum(int* nums, int numsSize, int target){
     
     return result;
 }*/
+//Runtime:225 ms    Memory:6.4 MB
 int* twoSum(int* nums, int numsSize, int target){
     
     int* result=(int*) malloc(sizeof(int)*2);
@@ -75,4 +76,5 @@ int* twoSum(int* nums, int numsSize, int target){
     
     return result;
 }
+//Runtime:136 ms    Memory:6.3 MB
 //儘量減少內圈的作業,可以減少運算次數
